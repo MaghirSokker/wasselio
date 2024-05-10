@@ -15,12 +15,14 @@ yarn-error.log
 .idea/
 .project
 .classpath
+
 .c9/
 *.launch
 .settings/
 *.sublime-workspace
 
 # Visual Studio Code
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
