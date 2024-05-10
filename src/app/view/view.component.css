@@ -1,0 +1,76 @@
+
+main{
+    flex-grow:1;
+    position:relative;
+}
+main article{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    left:0px;
+    top:0px;
+
+}
+main article .article-section {
+    height:100%;
+    border:1px solid var(--border-color);
+    display:flex;
+
+}
+main article .article-description-section,
+main article .article-nav-section{
+    border-left:1px solid var(--border-color);
+}
+main article .article-title-section,
+main article .article-nav-section{
+    border-top: 1px solid var(--border-color);
+}
+main article .article-image-section{
+    background-position: center;
+    background-size: cover;
+}
+main article .article-description-section{
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 4rem;
+
+}
+main article .article-description-section p {
+    color: rgba(255,255,255,0.5);
+    font-size: 1.25em;
+}
+/*--- article title ---*/
+main article .article-title-section {
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 4rem;
+}
+main article .article-title-section * {
+    color:white;
+}
+main article .article-title-section h2 {
+    flex-basis: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin: 0px;
+    
+    text-transform: uppercase;
+}
+main article .article-title-section a {
+    color: rgba(255, 255, 255, 0.75);
+    font-size:  4rem;
+}
+/*--- article nav ---*/
+main article .article-nav-section .article-nav-button{
+    background-color: transparent;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 3rem;
+    cursor: pointer;
+}
+main article .article-nav-section .article-nav-button:hover{
+    background-color: rgba(255,255,255,0.02);
+}

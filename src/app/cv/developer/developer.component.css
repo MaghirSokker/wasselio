@@ -1,0 +1,30 @@
+.article-space{
+    height: 37vh;
+    overflow: hidden;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    justify-content: flex-start;
+    padding: 0.1em 0.3em ;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 25px;
+    font-family: 'mono-space','Courier New';
+    color:white;
+    text-shadow: 1px 0px 0.5rem rgb(91, 56, 152);
+}
+.content{
+    font-size: 20px;
+    padding-left: 1.5em;
+    font-family: 'mono-space','Courier New';
+    color:white;
+    text-shadow: 0.5px 0.5px 2px rgb(11, 99, 30);
+}
+.big-title{
+    font-size:30px;
+}

@@ -1,0 +1,44 @@
+
+
+a:hover {
+  color: var(--highlight-color);
+}
+nav {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+nav .nav-section{
+    padding: 3rem 2rem;
+    display: flex;
+    gap:1rem;
+    border-left:1px solid var(--border-color);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#nav-logo-section,
+#nav-link-section{
+    flex-basis: calc(100%/3);
+}
+
+#nav-social-section,
+#nav-contact-section{
+    flex-grow:1;
+}
+
+#nav-social-section{
+    gap:3rem;
+}
+#nav-logo-section {
+    justify-content: flex-start;
+}
+#nav-logo-section a {
+    font-size: 2.5rem;
+}
+
+#nav-link-section {
+    gap:6rem;
+}

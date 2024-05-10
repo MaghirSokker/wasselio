@@ -1,0 +1,56 @@
+.article-space{
+    height: 37vh;
+    overflow: hidden;
+}
+.article-space div {
+    box-sizing: border-box;
+}
+@keyframes endless{
+    from{
+        translate: 0% 0%;
+    }
+    to { translate: 0% -64.5%}
+}
+.card{
+    padding-top:13px;
+}
+.scroller{
+    animation : endless 8s linear infinite;
+}
+.scroller:hover{
+    animation-play-state: paused;
+}
+.card-header{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom{
+    align-self: end;
+}
+.title{
+    font-size: 40px;
+    color:white;
+    text-shadow: 1px 0px 0.5rem rgb(91, 56, 152);
+    font-family:'Rubik';
+
+}
+.job{
+    font-family: 'sans-serif';
+    color:bisque;
+    font-size: 35px;
+}
+.date{
+    font-size: 25px;
+    font-family: 'mono-space','Courier New';
+    color:bisque;
+
+}
+.bullet{
+    color:aliceblue;
+    padding: 0.1em;
+}
